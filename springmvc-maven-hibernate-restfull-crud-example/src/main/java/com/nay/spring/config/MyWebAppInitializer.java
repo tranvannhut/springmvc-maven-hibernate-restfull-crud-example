@@ -2,6 +2,10 @@ package com.nay.spring.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
+/**
+ * @author nhutt
+ *
+ */
 public class MyWebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
 	@Override
