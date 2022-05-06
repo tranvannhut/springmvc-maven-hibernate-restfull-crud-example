@@ -14,6 +14,11 @@ import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import static org.hibernate.cfg.Environment.*;
 
+/**
+ * config app about database
+ * @author nhutt
+ *
+ */
 @Configuration
 @PropertySource("classpath:db.properties")
 @EnableTransactionManagement

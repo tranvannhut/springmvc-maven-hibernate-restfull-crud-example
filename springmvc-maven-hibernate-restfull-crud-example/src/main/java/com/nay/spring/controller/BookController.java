@@ -15,6 +15,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.nay.spring.model.Book;
 import com.nay.spring.service.BookService;
 
+/**
+ * Handle request
+ * @author nhutt
+ *
+ */
 @RestController
 public class BookController {
 
